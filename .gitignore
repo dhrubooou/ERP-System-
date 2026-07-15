@@ -1,0 +1,28 @@
+# Node / React
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.eslintcache
+.vite/
+frontend/node_modules/.vite/
+
+# Python
+venv/
+Backend/venv/
+*.py[cod]
+*$py.class
+__pycache__/
+Backend/__pycache__/
+.pytest_cache/
+
+# Environments & Secrets
+.env
+Backend/.env
+frontend/.env
+.env.local
+.env.*.local
+
+# OS Files
+.DS_Store
+Thumbs.db

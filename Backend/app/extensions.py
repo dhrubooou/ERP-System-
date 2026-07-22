@@ -11,7 +11,6 @@ def get_db_connection():
             database=current_app.config['MYSQL_DB']
         )
         if connection.is_connected():
-            print(True)
             return connection
     except Error as e:
         print(f"Error while connecting to MySQL: {e}")
